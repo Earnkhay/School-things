@@ -3,6 +3,7 @@
         <div class="flex justify-center items-center xl:items-start flex-wrap lg:flex-nowrap">
             <div class="flex-auto px-3">
                 <img src="../assets/st-logo.png" alt="">
+
                 <div class="mb-6">
                     <p class="text-lg sm:text-2xl mb-2 leading-relaxed">Bringing you <b class="text-xl sm:text-3xl">Prompt</b> and 
                         <br>
@@ -25,6 +26,7 @@
                         <a class="font-bold cursor-pointer" @click.prevent="setLoginPage"> {{ pageType == "signUp" ? "LOG IN" : "SIGN UP" }}</a>
                     </p>
                 </div>
+
             </div>
             <div class="flex-initial p-4 hidden sm:block">
                 <img class=".img" src="../assets/login-img.png" alt="">
