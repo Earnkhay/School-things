@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+      @apply px-3 py-2 rounded-2xl w-full outline-gray-500 outline outline-1 hover:ring-2 mb-5;
+  }
+  .input{
+    @apply w-full p-3 rounded-2xl outline-gray-500 outline outline-1 hover:outline-blue-400 focus:outline-green-600;
+  }
+  .img{
+    @apply max-w-full h-auto;
+  }
+}
